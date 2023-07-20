@@ -1,6 +1,6 @@
 {
   "name": "n-sftp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/n-sftp.js",
   "scripts": {
@@ -18,9 +18,9 @@
     "url": "https://github.com/kuzhi1900/n-sftp"
   },
   "keywords": [
-    "wget",
+    "ftp",
     "node",
-    "node-wget",
+    "sftp",
     "n-sftp"
   ],
   "author": "Bert Huang",

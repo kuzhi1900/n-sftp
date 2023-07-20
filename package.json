@@ -8,7 +8,7 @@
     "clean": "rimraf dist",
     "bulid": "node esbuild.js",
     "lint": "eslint \"{src,apps,libs,test}/**/*.*[tj]s\" --fix",
-    "prettier": "prettier --write \"./**/*.{*[tj]s,json，md}\"",
+    "prettier": "prettier --write \"./**/*.{*[tj]s,json，md}\""
   },
   "bin": {
     "n-sftp": "dist/n-sftp.js"

@@ -13,17 +13,26 @@
 
 ## About
 
-node version wget, support http & https. This cli program can download file from web easily.
+node version sftp cli tool, can upload or download file from the sftp server.
 
 ## Installation
 
 `npm install -g n-sftp`
 
 ## Usage
+
+### setting
 ```bash
-# n-sftp url [filename]
-n-sftp https://github.com/kuzhi1900/n-sftp/blob/main/dist/n-sftp.js n-sftp.js
+n-sftp user:password ip:port
 ```
 
+### upload file
+```bash
+n-sftp u localFilename remoteFilename
+```
 
+### download file
+```bash
+n-sftp d remoteFilename localFilename
+```
 

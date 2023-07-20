@@ -1,0 +1,16 @@
+package-lock.json
+pnpm-lock.yaml
+src/index.mjs
+.eslintrc.js
+.gitignore
+.idea
+webpack.config.js
+*.tgz
+esbuild.js
+.prettierrc
+.npmrc
+.eslintignore
+.eslintrc
+.prettierignore
+src
+
